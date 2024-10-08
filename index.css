@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url(./immagini/back10.jpg);
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    float: right;
+    color: white;
+    margin-right: 30%;
+}
+
+nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%; 
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 19.5%;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    text-align: center;
+}
+
+nav ul ul{
+    display: none;
+    top:100%;
+    bottom: 100%;
+    position: absolute;
+}
+
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul ul li {
+    width: 100%;
+    background-color: white;
+}
+
+#logo{
+    padding-top: 65px;
+
+}
+
+.content{
+    clear: both;
+}
+
+.imgSX{
+    float: left;
+    margin-right: 20px;
+}
+imgSX{
+    max-width: 100%;
+    height: auto;
+}
+
+.articolo{
+    background-color: white;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 50px;
+}
+
+.imgDX{
+    float: right;
+    margin-left: 20px;
+}
+
+.imgDX{
+    max-width: 100%;
+    height: auto;
+}
+
+.conenuto{
+    clear: both;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#correlati ul {
+    padding: 0;
+}
+#correlati ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 24.8%;
+}
+
+.uno{
+    background-image: url(./immagini/html5.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 300px;
+    border: 2px solid black;
+}
+
+
+.due{
+    background-image: url(./immagini/java.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 300px;
+    border: 2px solid black;
+}
+
+.tre{
+    background-image: url(./immagini/javascript.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 300px;
+    border: 2px solid black;
+}
+
+.quattro{
+    background-image: url(./immagini/responsive.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 300px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+#modulo ul .uno{
+    background-image: none;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    border: 0;
+}
+
+#modulo ul .due{
+    background-image: none;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    border: 0;
+}
+
+#modulo ul .tre{
+    background-image: none;
+    list-style: none;
+    padding: 0;
+    color: white;
+    border: 0;
+}
+
+#modulo .quattro {
+    background-image: none;
+    list-style: none;
+    padding: 0;
+    color: white;
+    border: 0;
+}
+#modulo{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+h2{
+    color: black;
+}
+
+.uno {
+    float: left;
+    width: 50%;
+}
+
+.due{
+    float: right;
+    width: 50%;
+}
+
+.tre{
+    text-align: center;
+}
+
+#nome{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#email{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#testo{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.pulsante{
+text-transform: uppercase;
+font-size: 30px;
+color: gray;
+}
+
+footer{
+    background-image: url(./immagini/back7.jpg);
+    background-size: cover;
+    padding: 50px
+}

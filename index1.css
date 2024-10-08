@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(204, 190, 190);
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    bottom: 100%;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#logo{
+    padding-top: 65px;
+
+}
+
+#logo{
+    margin-top: 60px;
+    background-image: url(./immagini/colori.jpg);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.articolo{
+    text-align: center;
+    margin: 50px;
+}
+
+.articolo img{
+    border-bottom-right-radius: 100px;
+}
+
+.articolo p{
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+#correlati h3{
+    text-align: center;
+}
+
+#correlati .uno{
+    background-image: url(./immagini/web-design.jpg);
+    background-size: contain;
+    width: 45%;
+    padding: 10%;
+}
+
+#correlati .due{
+    background-image: url(./immagini/java.jpg);
+    background-size: cover;
+    width: 45%;
+    padding: 10%;
+}
+
+#correlati .tre{
+    background-image: url(./immagini/javascript.jpg);
+    background-size: cover;
+    width: 45%;
+    padding: 10%;
+}
+
+#correlati .quattro{
+    background-image: url(./immagini/responsive.jpg);
+    background-size: cover;
+    width: 45%;
+    padding: 10%;
+}
+
+#correlati .uno a{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#correlati .due a{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#correlati .tre a{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#correlati .quattro a{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+#correlati ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 19.5%;
+}
+
+#modulo{
+text-align: center;
+background-color: white;
+margin-top: 50px;
+margin-bottom: 50px;
+border-style: dashed;
+}
+
+.pulsante{
+    background-color: rgb(208, 120, 31);
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.content .uno {
+ list-style-type: none;   
+}
+
+.content .due {
+    list-style-type: none;   
+}
+
+.content .tre{
+    list-style-type: none;         
+}
+   
+.content .quattro {
+    list-style-type: none;   
+}
+
+.content li{
+    list-style-type: none;
+}
+
+footer{
+    background-color: rgb(68, 62, 62);
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+    color: white;
+}
+   
